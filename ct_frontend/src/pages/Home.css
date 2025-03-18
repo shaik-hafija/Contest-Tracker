@@ -1,0 +1,89 @@
+/* Background styling */
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('https://images.unsplash.com/photo-1564951434112-64d74cc2a2d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGxhaW4lMjBiYWNrZ3JvdW5kc3xlbnwwfHwwfHx8MA%3D%3D'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color for better contrast */
+}
+
+/* Title styling */
+.title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Contest list styling */
+.contest-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Contest item styling */
+.contest-item {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect */
+.contest-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Bookmarked item styling */
+.bookmarked {
+    border: 2px solid gold;
+}
+
+/* Contest name styling */
+.contest-name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Bookmark button styling */
+.bookmark-btn {
+    background: none;
+    border: none;
+    color: gold;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+/* Bookmark button hover effect */
+.bookmark-btn:hover {
+    transform: scale(1.2);
+}
+
+/* Contest time styling */
+.contest-time {
+    margin-bottom: 15px;
+}
+
+/* Join button styling */
+.join-btn {
+    display: inline-block;
+    background-color: #fcfbfb;  
+    color: #000000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* Join button hover effect */
+.join-btn:hover {
+    background-color: #63b8ff;
+}

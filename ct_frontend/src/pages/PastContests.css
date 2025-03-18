@@ -1,0 +1,70 @@
+/* Container for the past contests */
+.past-contests-container {
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('https://images.unsplash.com/photo-1655394086486-894416d71803?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGxhaW4lMjBiYWNrZ3JvdW5kcyUyMHBpbmslMjBkYXJrfGVufDB8fDB8fHww'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color for better contrast */
+}
+.past-contests-container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+  }
+  
+  /* Grid layout for cards */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Individual card styling */
+  .card {
+    background-color: #fff; /* White background for cards */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card content styling */
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Dark gray text */
+  }
+  
+  .card-text {
+    margin: 5px 0;
+    color: #555; /* Medium gray text */
+  }
+  
+  /* Link styling */
+  .card-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff; /* Blue background for links */
+    color: #fff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .card-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
